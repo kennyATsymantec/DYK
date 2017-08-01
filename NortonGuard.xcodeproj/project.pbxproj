@@ -12,6 +12,7 @@
 		8905D2441F313A52004B5931 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 8905D2421F313A52004B5931 /* Main.storyboard */; };
 		8905D2461F313A52004B5931 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 8905D2451F313A52004B5931 /* Assets.xcassets */; };
 		8905D2491F313A52004B5931 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 8905D2471F313A52004B5931 /* LaunchScreen.storyboard */; };
+		8905D2521F313B0F004B5931 /* MapKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 8905D2511F313B0F004B5931 /* MapKit.framework */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -22,6 +23,7 @@
 		8905D2451F313A52004B5931 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		8905D2481F313A52004B5931 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		8905D24A1F313A52004B5931 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		8905D2511F313B0F004B5931 /* MapKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = MapKit.framework; path = System/Library/Frameworks/MapKit.framework; sourceTree = SDKROOT; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -29,6 +31,7 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				8905D2521F313B0F004B5931 /* MapKit.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -40,6 +43,7 @@
 			children = (
 				8905D23D1F313A52004B5931 /* NortonGuard */,
 				8905D23C1F313A52004B5931 /* Products */,
+				8905D2501F313B0E004B5931 /* Frameworks */,
 			);
 			sourceTree = "<group>";
 		};
@@ -62,6 +66,14 @@
 				8905D24A1F313A52004B5931 /* Info.plist */,
 			);
 			path = NortonGuard;
+			sourceTree = "<group>";
+		};
+		8905D2501F313B0E004B5931 /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				8905D2511F313B0F004B5931 /* MapKit.framework */,
+			);
+			name = Frameworks;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -96,6 +108,7 @@
 				TargetAttributes = {
 					8905D23A1F313A52004B5931 = {
 						CreatedOnToolsVersion = 8.3.3;
+						DevelopmentTeam = 355PDD8739;
 						ProvisioningStyle = Automatic;
 					};
 				};
@@ -260,6 +273,7 @@
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				DEVELOPMENT_TEAM = 355PDD8739;
 				INFOPLIST_FILE = NortonGuard/Info.plist;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
 				PRODUCT_BUNDLE_IDENTIFIER = com.symantec.NortonGuard;
@@ -272,6 +286,7 @@
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				DEVELOPMENT_TEAM = 355PDD8739;
 				INFOPLIST_FILE = NortonGuard/Info.plist;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
 				PRODUCT_BUNDLE_IDENTIFIER = com.symantec.NortonGuard;
