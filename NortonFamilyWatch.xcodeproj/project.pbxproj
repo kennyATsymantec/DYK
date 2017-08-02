@@ -13,10 +13,17 @@
 		8905D2461F313A52004B5931 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 8905D2451F313A52004B5931 /* Assets.xcassets */; };
 		8905D2491F313A52004B5931 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 8905D2471F313A52004B5931 /* LaunchScreen.storyboard */; };
 		8905D2521F313B0F004B5931 /* MapKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 8905D2511F313B0F004B5931 /* MapKit.framework */; };
+		8905D2561F317DB7004B5931 /* splash.png in Resources */ = {isa = PBXBuildFile; fileRef = 8905D2551F317DB7004B5931 /* splash.png */; };
+		8905D2581F31827F004B5931 /* child_head.png in Resources */ = {isa = PBXBuildFile; fileRef = 8905D2571F31827F004B5931 /* child_head.png */; };
+		8905D25C1F3185E2004B5931 /* list_top.png in Resources */ = {isa = PBXBuildFile; fileRef = 8905D25B1F3185E2004B5931 /* list_top.png */; };
+		8905D25E1F318637004B5931 /* map_image.png in Resources */ = {isa = PBXBuildFile; fileRef = 8905D25D1F318637004B5931 /* map_image.png */; };
+		8905D2601F31869F004B5931 /* HistoryViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8905D25F1F31869F004B5931 /* HistoryViewController.swift */; };
+		8905D2641F318AD2004B5931 /* Kenny.jpeg in Resources */ = {isa = PBXBuildFile; fileRef = 8905D2631F318AD2004B5931 /* Kenny.jpeg */; };
+		8905D26C1F318BFB004B5931 /* ImageViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8905D26B1F318BFB004B5931 /* ImageViewController.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
-		8905D23B1F313A52004B5931 /* NortonGuard.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = NortonGuard.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		8905D23B1F313A52004B5931 /* NortonFamilyWatch.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = NortonFamilyWatch.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		8905D23E1F313A52004B5931 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		8905D2401F313A52004B5931 /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
 		8905D2431F313A52004B5931 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
@@ -24,6 +31,13 @@
 		8905D2481F313A52004B5931 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		8905D24A1F313A52004B5931 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		8905D2511F313B0F004B5931 /* MapKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = MapKit.framework; path = System/Library/Frameworks/MapKit.framework; sourceTree = SDKROOT; };
+		8905D2551F317DB7004B5931 /* splash.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = splash.png; sourceTree = "<group>"; };
+		8905D2571F31827F004B5931 /* child_head.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = child_head.png; sourceTree = "<group>"; };
+		8905D25B1F3185E2004B5931 /* list_top.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = list_top.png; sourceTree = "<group>"; };
+		8905D25D1F318637004B5931 /* map_image.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = map_image.png; sourceTree = "<group>"; };
+		8905D25F1F31869F004B5931 /* HistoryViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = HistoryViewController.swift; sourceTree = "<group>"; };
+		8905D2631F318AD2004B5931 /* Kenny.jpeg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = Kenny.jpeg; sourceTree = "<group>"; };
+		8905D26B1F318BFB004B5931 /* ImageViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = ImageViewController.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -41,7 +55,7 @@
 		8905D2321F313A52004B5931 = {
 			isa = PBXGroup;
 			children = (
-				8905D23D1F313A52004B5931 /* NortonGuard */,
+				8905D23D1F313A52004B5931 /* NortonFamilyWatch */,
 				8905D23C1F313A52004B5931 /* Products */,
 				8905D2501F313B0E004B5931 /* Frameworks */,
 			);
@@ -50,21 +64,29 @@
 		8905D23C1F313A52004B5931 /* Products */ = {
 			isa = PBXGroup;
 			children = (
-				8905D23B1F313A52004B5931 /* NortonGuard.app */,
+				8905D23B1F313A52004B5931 /* NortonFamilyWatch.app */,
 			);
 			name = Products;
 			sourceTree = "<group>";
 		};
-		8905D23D1F313A52004B5931 /* NortonGuard */ = {
+		8905D23D1F313A52004B5931 /* NortonFamilyWatch */ = {
 			isa = PBXGroup;
 			children = (
 				8905D23E1F313A52004B5931 /* AppDelegate.swift */,
 				8905D2401F313A52004B5931 /* ViewController.swift */,
 				8905D2421F313A52004B5931 /* Main.storyboard */,
 				8905D2451F313A52004B5931 /* Assets.xcassets */,
+				8905D2571F31827F004B5931 /* child_head.png */,
+				8905D2551F317DB7004B5931 /* splash.png */,
+				8905D25B1F3185E2004B5931 /* list_top.png */,
+				8905D25D1F318637004B5931 /* map_image.png */,
 				8905D2471F313A52004B5931 /* LaunchScreen.storyboard */,
 				8905D24A1F313A52004B5931 /* Info.plist */,
+				8905D25F1F31869F004B5931 /* HistoryViewController.swift */,
+				8905D2631F318AD2004B5931 /* Kenny.jpeg */,
+				8905D26B1F318BFB004B5931 /* ImageViewController.swift */,
 			);
+			name = NortonFamilyWatch;
 			path = NortonGuard;
 			sourceTree = "<group>";
 		};
@@ -79,9 +101,9 @@
 /* End PBXGroup section */
 
 /* Begin PBXNativeTarget section */
-		8905D23A1F313A52004B5931 /* NortonGuard */ = {
+		8905D23A1F313A52004B5931 /* NortonFamilyWatch */ = {
 			isa = PBXNativeTarget;
-			buildConfigurationList = 8905D24D1F313A52004B5931 /* Build configuration list for PBXNativeTarget "NortonGuard" */;
+			buildConfigurationList = 8905D24D1F313A52004B5931 /* Build configuration list for PBXNativeTarget "NortonFamilyWatch" */;
 			buildPhases = (
 				8905D2371F313A52004B5931 /* Sources */,
 				8905D2381F313A52004B5931 /* Frameworks */,
@@ -91,9 +113,9 @@
 			);
 			dependencies = (
 			);
-			name = NortonGuard;
+			name = NortonFamilyWatch;
 			productName = NortonGuard;
-			productReference = 8905D23B1F313A52004B5931 /* NortonGuard.app */;
+			productReference = 8905D23B1F313A52004B5931 /* NortonFamilyWatch.app */;
 			productType = "com.apple.product-type.application";
 		};
 /* End PBXNativeTarget section */
@@ -113,7 +135,7 @@
 					};
 				};
 			};
-			buildConfigurationList = 8905D2361F313A52004B5931 /* Build configuration list for PBXProject "NortonGuard" */;
+			buildConfigurationList = 8905D2361F313A52004B5931 /* Build configuration list for PBXProject "NortonFamilyWatch" */;
 			compatibilityVersion = "Xcode 3.2";
 			developmentRegion = English;
 			hasScannedForEncodings = 0;
@@ -126,7 +148,7 @@
 			projectDirPath = "";
 			projectRoot = "";
 			targets = (
-				8905D23A1F313A52004B5931 /* NortonGuard */,
+				8905D23A1F313A52004B5931 /* NortonFamilyWatch */,
 			);
 		};
 /* End PBXProject section */
@@ -136,9 +158,14 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				8905D25E1F318637004B5931 /* map_image.png in Resources */,
+				8905D2641F318AD2004B5931 /* Kenny.jpeg in Resources */,
 				8905D2491F313A52004B5931 /* LaunchScreen.storyboard in Resources */,
 				8905D2461F313A52004B5931 /* Assets.xcassets in Resources */,
+				8905D2581F31827F004B5931 /* child_head.png in Resources */,
+				8905D25C1F3185E2004B5931 /* list_top.png in Resources */,
 				8905D2441F313A52004B5931 /* Main.storyboard in Resources */,
+				8905D2561F317DB7004B5931 /* splash.png in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -149,7 +176,9 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				8905D2601F31869F004B5931 /* HistoryViewController.swift in Sources */,
 				8905D2411F313A52004B5931 /* ViewController.swift in Sources */,
+				8905D26C1F318BFB004B5931 /* ImageViewController.swift in Sources */,
 				8905D23F1F313A52004B5931 /* AppDelegate.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -276,7 +305,7 @@
 				DEVELOPMENT_TEAM = 355PDD8739;
 				INFOPLIST_FILE = NortonGuard/Info.plist;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
-				PRODUCT_BUNDLE_IDENTIFIER = com.symantec.NortonGuard;
+				PRODUCT_BUNDLE_IDENTIFIER = com.symantec.NortonFamilyWatch;
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				SWIFT_VERSION = 3.0;
 			};
@@ -289,7 +318,7 @@
 				DEVELOPMENT_TEAM = 355PDD8739;
 				INFOPLIST_FILE = NortonGuard/Info.plist;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
-				PRODUCT_BUNDLE_IDENTIFIER = com.symantec.NortonGuard;
+				PRODUCT_BUNDLE_IDENTIFIER = com.symantec.NortonFamilyWatch;
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				SWIFT_VERSION = 3.0;
 			};
@@ -298,7 +327,7 @@
 /* End XCBuildConfiguration section */
 
 /* Begin XCConfigurationList section */
-		8905D2361F313A52004B5931 /* Build configuration list for PBXProject "NortonGuard" */ = {
+		8905D2361F313A52004B5931 /* Build configuration list for PBXProject "NortonFamilyWatch" */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (
 				8905D24B1F313A52004B5931 /* Debug */,
@@ -307,13 +336,14 @@
 			defaultConfigurationIsVisible = 0;
 			defaultConfigurationName = Release;
 		};
-		8905D24D1F313A52004B5931 /* Build configuration list for PBXNativeTarget "NortonGuard" */ = {
+		8905D24D1F313A52004B5931 /* Build configuration list for PBXNativeTarget "NortonFamilyWatch" */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (
 				8905D24E1F313A52004B5931 /* Debug */,
 				8905D24F1F313A52004B5931 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
 	};

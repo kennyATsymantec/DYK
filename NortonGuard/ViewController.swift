@@ -19,6 +19,7 @@ class ViewController: UIViewController, CLLocationManagerDelegate {
     override func viewDidLoad() {
         super.viewDidLoad()
         // Do any additional setup after loading the view, typically from a nib.
+    
         
         locationManager = CLLocationManager()
         locationManager.delegate = self
@@ -34,6 +35,13 @@ class ViewController: UIViewController, CLLocationManagerDelegate {
         mapView.setRegion(viewRegion, animated: false)
         
         mapView.showsUserLocation = true
+    }
+    
+    @IBAction func onChildClicked(_ sender: Any) {
+        // show scroll view
+        
+        performSegue(withIdentifier: "showNext", sender: nil)
+        
     }
 
     override func didReceiveMemoryWarning() {
