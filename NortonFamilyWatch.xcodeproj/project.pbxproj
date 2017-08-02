@@ -12,15 +12,15 @@
 		8905D2441F313A52004B5931 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 8905D2421F313A52004B5931 /* Main.storyboard */; };
 		8905D2461F313A52004B5931 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 8905D2451F313A52004B5931 /* Assets.xcassets */; };
 		8905D2521F313B0F004B5931 /* MapKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 8905D2511F313B0F004B5931 /* MapKit.framework */; };
-		8905D2561F317DB7004B5931 /* splash.png in Resources */ = {isa = PBXBuildFile; fileRef = 8905D2551F317DB7004B5931 /* splash.png */; };
 		8905D2581F31827F004B5931 /* child_head.png in Resources */ = {isa = PBXBuildFile; fileRef = 8905D2571F31827F004B5931 /* child_head.png */; };
 		8905D25C1F3185E2004B5931 /* list_top.png in Resources */ = {isa = PBXBuildFile; fileRef = 8905D25B1F3185E2004B5931 /* list_top.png */; };
 		8905D25E1F318637004B5931 /* map_image.png in Resources */ = {isa = PBXBuildFile; fileRef = 8905D25D1F318637004B5931 /* map_image.png */; };
 		8905D2601F31869F004B5931 /* HistoryViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8905D25F1F31869F004B5931 /* HistoryViewController.swift */; };
 		8905D2641F318AD2004B5931 /* Kenny.jpeg in Resources */ = {isa = PBXBuildFile; fileRef = 8905D2631F318AD2004B5931 /* Kenny.jpeg */; };
 		8905D26C1F318BFB004B5931 /* ImageViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8905D26B1F318BFB004B5931 /* ImageViewController.swift */; };
-		895774C41F31913E005CF4FE /* Launch Screen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 895774C31F31913E005CF4FE /* Launch Screen.storyboard */; };
+		891452151F31978D00043F2B /* Splash.png in Resources */ = {isa = PBXBuildFile; fileRef = 891452141F31978D00043F2B /* Splash.png */; };
 		895774C61F3191E1005CF4FE /* LaunchViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 895774C51F3191E1005CF4FE /* LaunchViewController.swift */; };
+		895774CB1F31958E005CF4FE /* Launch Screen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 895774CA1F31958E005CF4FE /* Launch Screen.storyboard */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -31,15 +31,15 @@
 		8905D2451F313A52004B5931 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		8905D24A1F313A52004B5931 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		8905D2511F313B0F004B5931 /* MapKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = MapKit.framework; path = System/Library/Frameworks/MapKit.framework; sourceTree = SDKROOT; };
-		8905D2551F317DB7004B5931 /* splash.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = splash.png; sourceTree = "<group>"; };
 		8905D2571F31827F004B5931 /* child_head.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = child_head.png; sourceTree = "<group>"; };
 		8905D25B1F3185E2004B5931 /* list_top.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = list_top.png; sourceTree = "<group>"; };
 		8905D25D1F318637004B5931 /* map_image.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = map_image.png; sourceTree = "<group>"; };
 		8905D25F1F31869F004B5931 /* HistoryViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = HistoryViewController.swift; sourceTree = "<group>"; };
 		8905D2631F318AD2004B5931 /* Kenny.jpeg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = Kenny.jpeg; sourceTree = "<group>"; };
 		8905D26B1F318BFB004B5931 /* ImageViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = ImageViewController.swift; sourceTree = "<group>"; };
-		895774C31F31913E005CF4FE /* Launch Screen.storyboard */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.storyboard; path = "Launch Screen.storyboard"; sourceTree = "<group>"; };
+		891452141F31978D00043F2B /* Splash.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = Splash.png; sourceTree = "<group>"; };
 		895774C51F3191E1005CF4FE /* LaunchViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = LaunchViewController.swift; sourceTree = "<group>"; };
+		895774CA1F31958E005CF4FE /* Launch Screen.storyboard */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.storyboard; path = "Launch Screen.storyboard"; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -79,15 +79,15 @@
 				8905D2421F313A52004B5931 /* Main.storyboard */,
 				8905D2451F313A52004B5931 /* Assets.xcassets */,
 				8905D2571F31827F004B5931 /* child_head.png */,
-				8905D2551F317DB7004B5931 /* splash.png */,
 				8905D25B1F3185E2004B5931 /* list_top.png */,
 				8905D25D1F318637004B5931 /* map_image.png */,
 				8905D24A1F313A52004B5931 /* Info.plist */,
+				891452141F31978D00043F2B /* Splash.png */,
 				8905D25F1F31869F004B5931 /* HistoryViewController.swift */,
 				8905D2631F318AD2004B5931 /* Kenny.jpeg */,
 				8905D26B1F318BFB004B5931 /* ImageViewController.swift */,
-				895774C31F31913E005CF4FE /* Launch Screen.storyboard */,
 				895774C51F3191E1005CF4FE /* LaunchViewController.swift */,
+				895774CA1F31958E005CF4FE /* Launch Screen.storyboard */,
 			);
 			name = NortonFamilyWatch;
 			path = NortonGuard;
@@ -161,14 +161,14 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				891452151F31978D00043F2B /* Splash.png in Resources */,
 				8905D25E1F318637004B5931 /* map_image.png in Resources */,
 				8905D2641F318AD2004B5931 /* Kenny.jpeg in Resources */,
-				895774C41F31913E005CF4FE /* Launch Screen.storyboard in Resources */,
 				8905D2461F313A52004B5931 /* Assets.xcassets in Resources */,
 				8905D2581F31827F004B5931 /* child_head.png in Resources */,
 				8905D25C1F3185E2004B5931 /* list_top.png in Resources */,
 				8905D2441F313A52004B5931 /* Main.storyboard in Resources */,
-				8905D2561F317DB7004B5931 /* splash.png in Resources */,
+				895774CB1F31958E005CF4FE /* Launch Screen.storyboard in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -304,6 +304,7 @@
 				PRODUCT_BUNDLE_IDENTIFIER = com.symantec.NortonFamilyWatch;
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				SWIFT_VERSION = 3.0;
+				TARGETED_DEVICE_FAMILY = 1;
 			};
 			name = Debug;
 		};
@@ -317,6 +318,7 @@
 				PRODUCT_BUNDLE_IDENTIFIER = com.symantec.NortonFamilyWatch;
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				SWIFT_VERSION = 3.0;
+				TARGETED_DEVICE_FAMILY = 1;
 			};
 			name = Release;
 		};
